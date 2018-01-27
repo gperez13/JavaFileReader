@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class FileReader {
@@ -13,5 +14,23 @@ public class FileReader {
             }
         }
 
+
+
+
+        catch (FileNotFoundException e) {
+            System.err.format("File Does Not Exist/n");
+        }
+
     }
+
+
+
+
+
+
+
+
+
+
+
 }
